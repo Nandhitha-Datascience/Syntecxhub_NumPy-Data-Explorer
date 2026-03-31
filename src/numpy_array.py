@@ -57,6 +57,6 @@ print("Broadcasted Data:\n", updated)
 np.save("data_array", data)
 
 # Load array
-loaded_data = np.load("data_array")
+loaded_data = np.load("data_array.npy")
 print("Loaded Data:\n", loaded_data)
 
